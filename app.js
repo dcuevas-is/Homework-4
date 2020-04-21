@@ -19,8 +19,8 @@ const deflate = (event) => {
 }
 
 const pop = (event) => {
-    if(balloon.style.fontSize = "60px") {
-        balloon.innerHTML = "O";
+    if(balloon.style.fontSize = 60 + 'px') {
+        balloon.innerHTML = "&#128165";
     }
 }
 
